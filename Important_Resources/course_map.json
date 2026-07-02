@@ -1,0 +1,400 @@
+{
+  "course": "LTM AI Services Labs",
+  "updated": "2026-07-02",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-06-18",
+      "folder": "Day_01",
+      "topics": [
+        "Machine Learning Overview for GenAI Engineers",
+        "End-to-End ML Pipeline",
+        "Model Evaluation",
+        "Model Persistence",
+        "ML as a Service"
+      ],
+      "resources": [
+        {
+          "path": "Day_01/day_01_machine_learning_overview.pdf",
+          "type": "pdf",
+          "description": "Machine learning overview notes."
+        }
+      ],
+      "tags": [
+        "machine-learning",
+        "ml-pipeline",
+        "evaluation",
+        "model-persistence"
+      ],
+      "short_topic": "ML Foundations",
+      "level": "beginner"
+    },
+    {
+      "day": 2,
+      "date": "2026-06-19",
+      "folder": "Day_02",
+      "topics": [
+        "Decision Tree",
+        "Random Forest",
+        "Support Vector Machine"
+      ],
+      "resources": [
+        {
+          "path": "Day_02/day_02_ml_pipeline_lab.ipynb",
+          "type": "notebook",
+          "description": "Hands-on machine learning pipeline lab."
+        },
+        {
+          "path": "Day_02/day_02_feature_engineering_notes.pdf",
+          "type": "pdf",
+          "description": "Feature engineering notes."
+        }
+      ],
+      "tags": [
+        "decision-tree",
+        "random-forest",
+        "svm",
+        "pipeline"
+      ],
+      "short_topic": "Tree Models and SVM",
+      "level": "beginner"
+    },
+    {
+      "day": 3,
+      "date": "2026-06-20",
+      "folder": "Day_03",
+      "topics": [
+        "Classical ML Models",
+        "Model Comparison",
+        "Bias Variance",
+        "Optimization"
+      ],
+      "resources": [],
+      "tags": [
+        "classical-ml",
+        "model-comparison",
+        "bias-variance",
+        "optimization"
+      ],
+      "short_topic": "Model Comparison",
+      "level": "beginner"
+    },
+    {
+      "day": 4,
+      "date": "2026-06-22",
+      "folder": "Day_04",
+      "topics": [
+        "Feature Engineering",
+        "Dimensionality Reduction",
+        "Ensemble Learning"
+      ],
+      "resources": [
+        {
+          "path": "Day_04/ml_hyperparameters_master.xlsx",
+          "type": "spreadsheet",
+          "description": "Hyperparameter reference spreadsheet."
+        }
+      ],
+      "tags": [
+        "feature-engineering",
+        "dimensionality-reduction",
+        "ensembles"
+      ],
+      "short_topic": "Feature Engineering",
+      "level": "beginner"
+    },
+    {
+      "day": 5,
+      "date": "2026-06-23",
+      "folder": "Day_05",
+      "topics": [
+        "Neural Networks",
+        "Deep Learning Fundamentals",
+        "ANN Architecture"
+      ],
+      "resources": [
+        {
+          "path": "Day_05/day_05_hyperparameter_tuning_pipeline_lab.ipynb",
+          "type": "notebook",
+          "description": "Hyperparameter tuning with pipeline lab."
+        }
+      ],
+      "tags": [
+        "hyperparameter-tuning",
+        "pipeline",
+        "model-improvement"
+      ],
+      "short_topic": "ANN Basics",
+      "level": "beginner"
+    },
+    {
+      "day": 6,
+      "date": "2026-06-24",
+      "folder": "Day_06",
+      "topics": [
+        "CNN Theory",
+        "CNN Architectures",
+        "Image Classification"
+      ],
+      "resources": [
+        {
+          "path": "Day_06/day_06_ann_mnist_keras_lab.ipynb",
+          "type": "notebook",
+          "description": "ANN implementation with Keras and MNIST."
+        }
+      ],
+      "tags": [
+        "ann",
+        "keras",
+        "mnist",
+        "deep-learning"
+      ],
+      "short_topic": "CNN Fundamentals",
+      "level": "beginner"
+    },
+    {
+      "day": 7,
+      "date": "2026-06-25",
+      "folder": "Day_07",
+      "topics": [
+        "Advanced CNN",
+        "Transfer Learning",
+        "Object Detection"
+      ],
+      "resources": [
+        {
+          "path": "Day_07/day_07_ann_fashion_mnist_lab.ipynb",
+          "type": "notebook",
+          "description": "Fashion MNIST ANN lab."
+        },
+        {
+          "path": "Day_07/day_07_cnn_practice_lab.ipynb",
+          "type": "notebook",
+          "description": "CNN practice lab."
+        },
+        {
+          "path": "Day_07/cnn_reference_image.png",
+          "type": "image",
+          "description": "Reference image for CNN practice."
+        }
+      ],
+      "tags": [
+        "cnn",
+        "fashion-mnist",
+        "transfer-learning",
+        "object-detection"
+      ],
+      "short_topic": "Advanced CNN",
+      "level": "beginner"
+    },
+    {
+      "day": 8,
+      "date": "2026-06-26",
+      "folder": "Day_08",
+      "topics": [
+        "Image Segmentation",
+        "CNN Visualization",
+        "Computer Vision Project"
+      ],
+      "resources": [
+        {
+          "path": "Day_08/day_08_image_preprocessing_cnn_lab.ipynb",
+          "type": "notebook",
+          "description": "Image preprocessing with CNN lab."
+        },
+        {
+          "path": "Day_08/cats_and_dogs_dataset.zip",
+          "type": "dataset",
+          "description": "Cats and dogs image dataset archive."
+        }
+      ],
+      "tags": [
+        "computer-vision",
+        "image-preprocessing",
+        "cnn",
+        "segmentation"
+      ],
+      "short_topic": "Computer Vision Project",
+      "level": "beginner"
+    },
+    {
+      "day": 9,
+      "date": "2026-06-27",
+      "folder": "Day_09",
+      "topics": [
+        "RNN Theory",
+        "Vanishing Gradient",
+        "LSTM",
+        "Bidirectional RNN"
+      ],
+      "resources": [
+        {
+          "path": "Day_09/telco_customer_churn.csv",
+          "type": "dataset",
+          "description": "Telco customer churn tabular dataset."
+        }
+      ],
+      "tags": [
+        "rnn",
+        "lstm",
+        "vanishing-gradient",
+        "sequence-models",
+        "dataset"
+      ],
+      "short_topic": "RNN and LSTM Theory",
+      "level": "beginner"
+    },
+    {
+      "day": 10,
+      "date": "2026-06-29",
+      "folder": "Day_10",
+      "topics": [
+        "RNN",
+        "LSTM",
+        "Bidirectional LSTM",
+        "Movie Review Sentiment Classification"
+      ],
+      "resources": [
+        {
+          "path": "Day_10/day_10_rnn_lstm_imdb_movie_reviews_lab.ipynb",
+          "type": "notebook",
+          "description": "Beginner TensorFlow Keras IMDB movie review lab with simple loading, padding, RNN, LSTM, training, evaluation, and prediction."
+        }
+      ],
+      "tags": [
+        "rnn",
+        "lstm",
+        "tensorflow",
+        "keras",
+        "imdb",
+        "sentiment-analysis",
+        "nlp"
+      ],
+      "short_topic": "RNN/LSTM Movie Sentiment",
+      "level": "beginner"
+    },
+    {
+      "day": 11,
+      "date": "2026-06-30",
+      "folder": "Day_11",
+      "topics": [
+        "Generative Models",
+        "GAN Fundamentals",
+        "VAE Concepts"
+      ],
+      "resources": [],
+      "tags": [
+        "gan",
+        "vae",
+        "generative-models"
+      ],
+      "short_topic": "Generative Models",
+      "level": "beginner"
+    },
+    {
+      "day": 12,
+      "date": "2026-07-01",
+      "folder": "Day_12",
+      "topics": [
+        "NLP Overview",
+        "Text Processing",
+        "Word Embeddings",
+        "Classical NLP Pipelines"
+      ],
+      "resources": [
+        {
+          "path": "Day_12/day_12_beginner_nlp_text_processing_lab.ipynb",
+          "type": "notebook",
+          "description": "Beginner NLP lab covering regex cleaning, bag-of-words, TF-IDF, and simple sentiment classification."
+        },
+        {
+          "path": "Day_12/day_12_regex_nlp_text_cleaning_notes.docx",
+          "type": "docx",
+          "description": "Regex and NLP text cleaning notes."
+        },
+        {
+          "path": "Day_12/README.md",
+          "type": "markdown",
+          "description": "Day 12 lab overview and revision focus."
+        }
+      ],
+      "tags": [
+        "nlp",
+        "regex",
+        "text-cleaning",
+        "bag-of-words",
+        "tf-idf",
+        "sentiment-classification"
+      ],
+      "short_topic": "NLP Text Processing",
+      "level": "beginner"
+    },
+    {
+      "day": 13,
+      "date": "2026-07-02",
+      "folder": "Day_13",
+      "topics": [
+        "Attention Mechanisms",
+        "Transformers",
+        "BERT",
+        "Model Optimization"
+      ],
+      "resources": [
+        {
+          "path": "Day_13/day_13_beginner_attention_transformer_bert_lab.ipynb",
+          "type": "notebook",
+          "description": "Beginner attention and transformer lab with softmax attention, self-attention, tiny Keras transformer, and BERT concepts."
+        },
+        {
+          "path": "Day_13/README.md",
+          "type": "markdown",
+          "description": "Day 13 lab overview and revision focus."
+        }
+      ],
+      "tags": [
+        "attention",
+        "self-attention",
+        "transformers",
+        "bert",
+        "keras",
+        "multi-head-attention"
+      ],
+      "short_topic": "Transformers and BERT",
+      "level": "beginner"
+    },
+    {
+      "day": 14,
+      "date": "2026-07-03",
+      "folder": "Day_14",
+      "topics": [
+        "Summarization",
+        "Sentiment Analysis",
+        "Conversational AI",
+        "Multilingual AI"
+      ],
+      "resources": [
+        {
+          "path": "Day_14/day_14_beginner_llm_applications_lab.ipynb",
+          "type": "notebook",
+          "description": "Beginner LLM applications lab covering summarization, sentiment analysis, conversational memory, prompt templates, and a revision helper."
+        },
+        {
+          "path": "Day_14/README.md",
+          "type": "markdown",
+          "description": "Day 14 lab overview and revision focus."
+        }
+      ],
+      "tags": [
+        "llm",
+        "summarization",
+        "sentiment-analysis",
+        "chatbot",
+        "prompt-template",
+        "conversational-ai"
+      ],
+      "short_topic": "LLM Applications",
+      "level": "beginner"
+    }
+  ],
+  "level": "beginner"
+}
